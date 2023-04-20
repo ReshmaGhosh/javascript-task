@@ -8,3 +8,6 @@ let input = [
 
 // please extract only the name from input array.
 // expected outcome: ["John", "Mike", "Danny", "Lisa", "Sophie"];
+
+const names = input.map((iteam) => iteam.name);
+console.log(names);
